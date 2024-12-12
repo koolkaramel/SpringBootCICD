@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: koolkaramel/spring-boot:replaceImageTag
+        image: koolkaramel/spring-boot:4
         ports:
         - containerPort: 8080
