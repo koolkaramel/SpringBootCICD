@@ -20,9 +20,12 @@ Execute the Maven targets to generate the artifacts
 mvn clean package
 ```
 
-### Execute locally (Java 11 needed) and access the application on http://localhost:8080
+### Execute locally (Latest version of Java needed) and access the application on http://localhost:8080
 
 ```
+sudo apt install openjdk-17-jdk -y
+java -version
+sudo apt update
 java -jar target/spring-boot-web.jar
 ```
 
@@ -56,6 +59,6 @@ cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ./sonar.sh start
 ```
 
-Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
+Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
 
 
